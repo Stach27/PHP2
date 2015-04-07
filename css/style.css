@@ -1,0 +1,46 @@
+html, body {
+margin: 0px;
+padding:  0px;
+}
+
+#wrapper {
+	width: 1188px;
+	border: 1px solid green;
+	margin: 0 auto;	
+}
+
+#header {
+	width: 1186px;
+	height: 142px;
+	background-image: url(../img/header.jpg);
+	clear: both;
+}
+
+#side-menu {
+	float: left;
+	width: 120px;
+	height: 560px;
+	border: 1px solid green;
+	position: relative;
+	margin: 10px;
+	padding: 30px;
+}
+
+#ListNews {
+	float: left;
+	width: 880px;
+	height: 580px;
+	border: 1px solid green;
+	position: relative;
+	margin: 10px;
+	padding: 20px;
+}
+
+#footer {
+	width: 1186px;
+	height: 12px;
+	background-image: url(../img/footer.jpg);
+	border: 1px solid green;
+	clear: both;
+}
+

@@ -5,7 +5,7 @@
     <title></title>
 </head>
 <body>
-<h1>Новостm</h1>
+<h1>Новость</h1>
 
 <article>
     <h3> <?php echo $article['title']; ?> </h3>

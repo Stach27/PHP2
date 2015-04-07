@@ -1,6 +1,6 @@
 <?php
 //модель - все функции для работы с новостями
-require '../functions/db.php';
+require 'functions/db.php';
 
 function findAllNews()
 {
