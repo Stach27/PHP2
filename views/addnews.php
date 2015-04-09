@@ -11,7 +11,7 @@
 
     <div id="side-menu">Navigation menu</div>
 
-    <form action="/../function/addnews.php" method="post" name="userform" enctype="multipart/form-data">
+    <form action="/../models/addnews.php" method="post" name="userform" enctype="multipart/form-data">
         <fieldset>
             <legend>Добавление новости:</legend>
             <p><input type="text" name="name" placeholder="Название" size="40"/></p>

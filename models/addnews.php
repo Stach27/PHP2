@@ -14,7 +14,6 @@ $sql = 'INSERT INTO news (name, bodyArticle) VALUES ("' . $name . '", "' . $body
 if (!mysql_query($sql)) {
     echo '<p>Ошибка при добавлении данных</p>';
 } else {
-    echo '<p>Ошибка при добавлении данных</p>';
+    echo '<p>Новость успешно добавлена!</p>';
 }
-
-
+?>
