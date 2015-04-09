@@ -1,11 +1,11 @@
 <?php
 //модель - все функции для работы с новостями
-require 'functions/db.php';
+require __DIR__ . '/../functions/db.php';
 
 function findAllNews()
 {
-   $sql = 'SELECT * FROM news';
-   $ret = dbFindAllByQuery($sql);
+    $sql = 'SELECT * FROM news ORDER BY date DESC';
+    $ret = dbFindAllByQuery($sql);
     return $ret;
 }
 

@@ -1,8 +1,8 @@
 <?php
 // контроллер
-require 'models/news.php';
+require __DIR__ . '/models/news.php';
 
 $news = findAllNews();
 
-require 'views/index.php';
+require __DIR__ . '/views/index.php';
 

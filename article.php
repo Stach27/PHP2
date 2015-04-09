@@ -1,7 +1,7 @@
 <?php
 // контроллер
-require 'models/news.php';
+require __DIR__ . '/models/news.php';
 
 $article = findOneByID($_GET['id']);
 
-require 'views/article.php';
+require __DIR__ . '/views/article.php';
